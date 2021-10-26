@@ -1,0 +1,43 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+#---------------------------------
+# Directories
+#---------------------------------
+node_modules/
+**/node_modules/
+babel_cache/
+coverage/
+build/
+.build/
+.build*/
+dist/
+cache/
+.configcache/
+velocityserv*
+localesOrganized
+metrics/
+
+#---------------------------------
+# Extensions
+#---------------------------------
+*.gz
+*.log
+*.rar
+*.tar
+*.zip
+
+#---------------------------------
+# IDE generated
+#---------------------------------
+.idea/
+.vscode/
+.project
+*.iml
+
+#---------------------------------
+# OS generated
+#---------------------------------
+__MACOSX/
+.DS_Store
+Thumbs.db
+
