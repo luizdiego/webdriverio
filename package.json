@@ -1,0 +1,29 @@
+{
+  "name": "webdriverio-tests",
+  "description": "Contains functional tests for WebDriver.IO.",
+  "version": "0.0.1",
+  "author": "souza.luizdiego@gmail.com",
+  "license": "UNLICENSED",
+  "source": "src",
+  "private": true,
+  "repository": "",
+  "dependencies": {
+    "@wdio/cli": "^7.8.0",
+    "@wdio/mocha-framework": "^7.8.0",
+    "browserstack-local": "^1.4.8"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js,.ts . --fix",
+    "prettier": "prettier --write ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "@wdio/browserstack-service": "^7.9.0",
+    "@wdio/local-runner": "^7.8.0",
+    "eslint-plugin-wdio": "^7.4.2", 
+    "plop": "^2.7.4",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  }
+}
